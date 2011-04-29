@@ -27,6 +27,7 @@
 	<description>deps</description>
 	<url>http://code.google.com/p/godmonth/</url>
 	<issueManagement>
+
 		<system>github</system>
 		<url>https://github.com/godmonth/godmonth-deps/issues</url>
 	</issueManagement>
