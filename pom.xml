@@ -24,6 +24,8 @@
 		<bouncycastle.version>1.45</bouncycastle.version>
 		<wicket.version>1.4.12</wicket.version>
 	</properties>
+	
+	
 	<developers>
 		<developer>
 			<email>link2people@gmail.com</email>
