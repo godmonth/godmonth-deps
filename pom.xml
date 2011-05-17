@@ -8,14 +8,14 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.godmonth</groupId>
 	<name>deps</name>
-	<version>0.8.4-SNAPSHOT</version>
+	<version>0.8.4</version>
 	<artifactId>deps</artifactId>
 	<packaging>pom</packaging>
 	<properties>
 		<project.reporting.outputEncoding>utf-8</project.reporting.outputEncoding>
 		<spring.version>3.0.5.RELEASE</spring.version>
 		<spring.security.version>3.0.4.RELEASE</spring.security.version>
-		<spring.ws.version>2.0.0.RELEASE</spring.ws.version>
+		<spring.ws.version>2.0.1.RELEASE</spring.ws.version>
 		<servlet.version>2.5</servlet.version>
 		<jsp.version>2.1</jsp.version>
 		<slf4j.version>1.6.1</slf4j.version>
@@ -24,6 +24,8 @@
 		<bouncycastle.version>1.45</bouncycastle.version>
 		<wicket.version>1.4.12</wicket.version>
 	</properties>
+	
+	
 	<developers>
 		<developer>
 			<email>link2people@gmail.com</email>
@@ -53,7 +55,7 @@
 				<plugin>
 					<groupId>org.mortbay.jetty</groupId>
 					<artifactId>jetty-maven-plugin</artifactId>
-					<version>7.2.0.v20101020</version>
+					<version>7.4.1.v20110513</version>
 					<dependencies>
 						<dependency>
 							<groupId>ch.qos.logback</groupId>
