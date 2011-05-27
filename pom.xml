@@ -1,4 +1,5 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<parent>
 		<groupId>org.sonatype.oss</groupId>
 		<artifactId>oss-parent</artifactId>
@@ -8,7 +9,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.godmonth</groupId>
 	<name>deps</name>
-	<version>0.8.4-SNAPSHOT</version>
+	<version>0.8.4</version>
 	<artifactId>deps</artifactId>
 	<packaging>pom</packaging>
 	<properties>
@@ -22,10 +23,11 @@
 		<logback.version>0.9.28</logback.version>
 		<cxf.version>2.2.9</cxf.version>
 		<bouncycastle.version>1.45</bouncycastle.version>
-		<wicket.version>1.4.12</wicket.version>
+		<wicket.version>1.5-RC4.2</wicket.version>
+		<aspectj.version>1.6.11</aspectj.version>
 	</properties>
-	
-	
+
+
 	<developers>
 		<developer>
 			<email>link2people@gmail.com</email>
@@ -55,7 +57,6 @@
 				<plugin>
 					<groupId>org.mortbay.jetty</groupId>
 					<artifactId>jetty-maven-plugin</artifactId>
-					<version>7.2.0.v20101020</version>
 					<dependencies>
 						<dependency>
 							<groupId>ch.qos.logback</groupId>
@@ -68,8 +69,6 @@
 			</plugins>
 		</pluginManagement>
 		<plugins>
-
-
 			<plugin>
 				<artifactId>maven-jar-plugin</artifactId>
 				<executions>
@@ -384,11 +383,6 @@
 				<version>${spring.security.version}</version>
 			</dependency>
 			<dependency>
-				<groupId>org.springframework.ldap</groupId>
-				<artifactId>spring-ldap-tiger</artifactId>
-				<version>1.2.1</version>
-			</dependency>
-			<dependency>
 				<groupId>javax.servlet</groupId>
 				<artifactId>servlet-api</artifactId>
 				<version>${servlet.version}</version>
@@ -409,12 +403,12 @@
 			<dependency>
 				<groupId>org.hibernate</groupId>
 				<artifactId>hibernate-core</artifactId>
-				<version>3.6.0.Final</version>
+				<version>3.6.4.Final</version>
 			</dependency>
 			<dependency>
 				<groupId>org.hibernate</groupId>
 				<artifactId>hibernate-entitymanager</artifactId>
-				<version>3.6.0.Final</version>
+				<version>3.6.4.Final</version>
 			</dependency>
 			<dependency>
 				<groupId>junit</groupId>
@@ -580,13 +574,7 @@
 			<dependency>
 				<groupId>net.sf.log4jdbc</groupId>
 				<artifactId>log4jdbc3</artifactId>
-				<version>1.2alpha2</version>
-			</dependency>
-			<dependency>
-				<groupId>com.oracle</groupId>
-				<artifactId>ojdbc14</artifactId>
-				<version>10.1.0.5.0</version>
-				<scope>runtime</scope>
+				<version>1.2alpha4</version>
 			</dependency>
 			<dependency>
 				<groupId>mysql</groupId>
@@ -601,9 +589,9 @@
 				<scope>test</scope>
 			</dependency>
 			<dependency>
-				<groupId>opensymphony</groupId>
-				<artifactId>quartz</artifactId>
-				<version>1.6.1</version>
+				<groupId>org.quartz-scheduler</groupId>
+				<artifactId>quartz-parent</artifactId>
+				<version>2.0.1</version>
 			</dependency>
 			<dependency>
 				<groupId>org.testng</groupId>
@@ -677,7 +665,7 @@
 			<dependency>
 				<groupId>org.aspectj</groupId>
 				<artifactId>aspectjweaver</artifactId>
-				<version>1.6.9</version>
+				<version>1.6.11</version>
 			</dependency>
 			<dependency>
 				<groupId>org.aspectj</groupId>
@@ -783,12 +771,6 @@
 				<scope>test</scope>
 			</dependency>
 			<dependency>
-				<groupId>javassist</groupId>
-				<artifactId>javassist</artifactId>
-				<version>3.12.1.GA</version>
-				<scope>runtime</scope>
-			</dependency>
-			<dependency>
 				<groupId>org.apache.derby</groupId>
 				<artifactId>derby</artifactId>
 				<version>10.6.1.0</version>
@@ -848,6 +830,11 @@
 				<groupId>org.jboss.netty</groupId>
 				<artifactId>netty</artifactId>
 				<version>3.2.4.Final</version>
+			</dependency>
+			<dependency>
+				<groupId>org.springframework.data</groupId>
+				<artifactId>spring-data-neo4j</artifactId>
+				<version>1.0.0.RELEASE</version>
 			</dependency>
 		</dependencies>
 
