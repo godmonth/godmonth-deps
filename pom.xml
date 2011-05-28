@@ -47,9 +47,9 @@
 		</license>
 	</licenses>
 	<scm>
-		<connection>scm:git:https://godmonth@github.com/godmonth/godmonth-deps.git</connection>
-		<developerConnection>scm:git:https://godmonth@github.com/godmonth/godmonth-deps.git</developerConnection>
-		<url>https://github.com/godmonth/godmonth-deps</url>
+		<connection>scm:git:git@github.com:godmonth/godmonth-deps.git</connection>
+		<developerConnection>scm:git:git@github.com:godmonth/godmonth-deps.git</developerConnection>
+		<url>http://github.com/godmonth/godmonth-deps</url>
 	</scm>
 	<build>
 		<pluginManagement>
