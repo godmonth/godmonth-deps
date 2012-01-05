@@ -67,6 +67,7 @@
 				<groupId>joda-time</groupId>
 				<artifactId>joda-time</artifactId>
 				<version>2.0</version>
+<<<<<<< HEAD
 			</dependency>
 			<dependency>
 				<groupId>org.jboss.netty</groupId>
@@ -91,6 +92,32 @@
 				<scope>runtime</scope>
 			</dependency>
 			<dependency>
+=======
+			</dependency>
+			<dependency>
+				<groupId>org.jboss.netty</groupId>
+				<artifactId>netty</artifactId>
+				<version>3.2.7.Final</version>
+			</dependency>
+			<dependency>
+				<groupId>com.espertech</groupId>
+				<artifactId>esper</artifactId>
+				<version>4.4.0</version>
+			</dependency>
+			<dependency>
+				<groupId>cglib</groupId>
+				<artifactId>cglib</artifactId>
+				<version>2.2.2</version>
+				<scope>runtime</scope>
+			</dependency>
+			<dependency>
+				<groupId>org.beanshell</groupId>
+				<artifactId>bsh</artifactId>
+				<version>2.0b4</version>
+				<scope>runtime</scope>
+			</dependency>
+			<dependency>
+>>>>>>> 52d89f4646bfbc40db8ce54a5707b43d098347bf
 				<groupId>org.quartz-scheduler</groupId>
 				<artifactId>quartz</artifactId>
 				<version>2.1.2</version>
@@ -210,12 +237,17 @@
 				<groupId>org.apache.wicket</groupId>
 				<artifactId>wicket-extensions</artifactId>
 				<version>${wicket.version}</version>
+<<<<<<< HEAD
 			</dependency>
 			<dependency>
 				<groupId>org.apache.wicket</groupId>
 				<artifactId>wicket-util</artifactId>
 				<version>${wicket.version}</version>
 			</dependency>
+=======
+			</dependency>
+
+>>>>>>> 52d89f4646bfbc40db8ce54a5707b43d098347bf
 			<!-- cache -->
 			<dependency>
 				<groupId>net.sf.ehcache</groupId>
