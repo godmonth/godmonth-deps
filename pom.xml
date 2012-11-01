@@ -18,7 +18,7 @@
 		<bouncycastle.version>1.46</bouncycastle.version>
 		<wicket.version>6.2.0</wicket.version>
 		<aspectj.version>1.7.1</aspectj.version>
-		<hibernate.version>4.1.7.Final</hibernate.version>
+		<hibernate.version>4.1.8.Final</hibernate.version>
 		<jackson.version>2.1.0</jackson.version>
 	</properties>
 	<developers>
