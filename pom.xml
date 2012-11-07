@@ -22,6 +22,7 @@
 		<hibernate.version>4.1.8.Final</hibernate.version>
 		<jackson.version>2.1.0</jackson.version>
 		<curator.version>1.2.4</curator.version>
+		<mybatis.version>3.1.1</mybatis.version>
 	</properties>
 	<developers>
 		<developer>
@@ -526,7 +527,6 @@
 				<artifactId>mail</artifactId>
 				<version>1.4.4</version>
 			</dependency>
-
 			<dependency>
 				<groupId>com.netflix.curator</groupId>
 				<artifactId>curator-framework</artifactId>
@@ -536,6 +536,16 @@
 				<groupId>com.netflix.curator</groupId>
 				<artifactId>curator-recipes</artifactId>
 				<version>${curator.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>org.mybatis</groupId>
+				<artifactId>mybatis</artifactId>
+				<version>${mybatis.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>org.mybatis</groupId>
+				<artifactId>mybatis-spring</artifactId>
+				<version>${mybatis.version}</version>
 			</dependency>
 		</dependencies>
 
