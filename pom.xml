@@ -96,6 +96,11 @@
 				<artifactId>dozer</artifactId>
 				<version>5.4.0</version>
 			</dependency>
+			<dependency>
+				<groupId>net.sourceforge.collections</groupId>
+				<artifactId>collections-generic</artifactId>
+				<version>4.01</version>
+			</dependency>
 			<!-- security library -->
 			<dependency>
 				<groupId>org.bouncycastle</groupId>
