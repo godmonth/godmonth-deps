@@ -11,16 +11,16 @@
 	<artifactId>deps</artifactId>
 	<packaging>pom</packaging>
 	<properties>
-		<spring.version>3.2.2.RELEASE</spring.version>
+		<spring.version>3.2.3.RELEASE</spring.version>
 		<spring.security.version>3.1.4.RELEASE</spring.security.version>
 		<slf4j.version>1.7.5</slf4j.version>
 		<logback.version>1.0.13</logback.version>
 		<bouncycastle.version>1.46</bouncycastle.version>
-		<wicket.version>6.7.0</wicket.version>
+		<wicket.version>6.8.0</wicket.version>
 		<aspectj.version>1.7.2</aspectj.version>
-		<hibernate.version>4.2.1.Final</hibernate.version>
-		<jackson.version>2.2.1</jackson.version>
-		<curator.version>2.0.0-incubating</curator.version>
+		<hibernate.version>4.2.2.Final</hibernate.version>
+		<jackson.version>2.2.2</jackson.version>
+		<curator.version>2.0.1-incubating</curator.version>
 		<guava.version>14.0.1</guava.version>
 	</properties>
 	<developers>
