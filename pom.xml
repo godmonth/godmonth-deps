@@ -416,8 +416,8 @@
 			</dependency>
 			<dependency>
 				<groupId>org.springframework</groupId>
-				<artifactId>spring-expression</artifactId>
-				<version>${spring.version}</version>
+				<artifactId>spring-core</artifactId>
+				<version>3.2.5.RELEASE</version>
 			</dependency>
 			<dependency>
 				<groupId>org.springframework</groupId>
