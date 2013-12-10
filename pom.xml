@@ -22,6 +22,7 @@
 		<hibernate.version>4.2.8</hibernate.version>
 		<jackson.version>2.3.0</jackson.version>
 		<curator.version>2.3.0</curator.version>
+		<hazelcast.version>3.1.3</hazelcast.version>
 		<guava.version>15.0</guava.version>
 	</properties>
 	<developers>
@@ -562,6 +563,16 @@
 				<groupId>net.lingala.zip4j</groupId>
 				<artifactId>zip4j</artifactId>
 				<version>1.3.1</version>
+			</dependency>
+			<dependency>
+				<groupId>com.hazelcast</groupId>
+				<artifactId>hazelcast-client</artifactId>
+				<version>${hazelcast.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>com.hazelcast</groupId>
+				<artifactId>hazelcast</artifactId>
+				<version>${hazelcast.version}</version>
 			</dependency>
 		</dependencies>
 	</dependencyManagement>
