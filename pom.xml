@@ -19,7 +19,7 @@
 		<bouncycastle.version>1.46</bouncycastle.version>
 		<wicket.version>6.12.0</wicket.version>
 		<aspectj.version>1.7.4</aspectj.version>
-		<hibernate.version>4.2.7.SP1</hibernate.version>
+		<hibernate.version>4.2.8</hibernate.version>
 		<jackson.version>2.3.0</jackson.version>
 		<curator.version>2.3.0</curator.version>
 		<guava.version>15.0</guava.version>
@@ -180,6 +180,11 @@
 				<groupId>commons-collections</groupId>
 				<artifactId>commons-collections</artifactId>
 				<version>3.2.1</version>
+			</dependency>
+			<dependency>
+				<groupId>org.apache.commons</groupId>
+				<artifactId>commons-collections4</artifactId>
+				<version>4.0</version>
 			</dependency>
 			<!--object mapping library -->
 			<dependency>
