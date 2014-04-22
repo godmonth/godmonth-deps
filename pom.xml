@@ -1,4 +1,5 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<parent>
 		<groupId>org.sonatype.oss</groupId>
 		<artifactId>oss-parent</artifactId>
@@ -11,12 +12,12 @@
 	<artifactId>deps</artifactId>
 	<packaging>pom</packaging>
 	<properties>
-		<slf4j.version>1.7.6</slf4j.version>
-		<logback.version>1.1.1</logback.version>
+		<slf4j.version>1.7.7</slf4j.version>
+		<logback.version>1.1.2</logback.version>
 		<guava.version>16.0.1</guava.version>
 		<curator.version>2.4.1</curator.version>
 		<hazelcast.version>3.2</hazelcast.version>
-		<hibernate.version>4.3.4.Final</hibernate.version>
+		<hibernate.version>4.3.5.Final</hibernate.version>
 		<bouncycastle.version>1.46</bouncycastle.version>
 		<aspectj.version>1.7.4</aspectj.version>
 	</properties>
@@ -87,6 +88,12 @@
 					</exclusion>
 				</exclusions>
 			</dependency>
+			<dependency>
+				<groupId>net.lingala.zip4j</groupId>
+				<artifactId>zip4j</artifactId>
+				<version>1.3.2</version>
+			</dependency>
+
 			<!-- security library -->
 			<dependency>
 				<groupId>org.bouncycastle</groupId>
@@ -140,7 +147,7 @@
 			<dependency>
 				<groupId>org.apache.commons</groupId>
 				<artifactId>commons-lang3</artifactId>
-				<version>3.3.1</version>
+				<version>3.3.2</version>
 			</dependency>
 			<dependency>
 				<groupId>commons-beanutils</groupId>
@@ -162,13 +169,13 @@
 			<dependency>
 				<groupId>com.fasterxml.jackson.core</groupId>
 				<artifactId>jackson-databind</artifactId>
-				<version>2.3.2</version>
+				<version>2.3.3</version>
 			</dependency>
 			<!-- cache -->
 			<dependency>
 				<groupId>net.sf.ehcache</groupId>
 				<artifactId>ehcache</artifactId>
-				<version>2.8.1</version>
+				<version>2.8.2</version>
 			</dependency>
 			<dependency>
 				<groupId>com.googlecode.xmemcached</groupId>
@@ -210,7 +217,7 @@
 			<dependency>
 				<groupId>org.mybatis</groupId>
 				<artifactId>mybatis</artifactId>
-				<version>3.2.6</version>
+				<version>3.2.7</version>
 			</dependency>
 			<dependency>
 				<groupId>org.mybatis</groupId>
@@ -264,7 +271,8 @@
 				<artifactId>logback-classic</artifactId>
 				<version>${logback.version}</version>
 				<scope>runtime</scope>
-			</dependency>	<!-- zookeeper -->
+			</dependency>
+			<!-- zookeeper -->
 			<dependency>
 				<groupId>org.apache.curator</groupId>
 				<artifactId>curator-framework</artifactId>
@@ -311,33 +319,17 @@
 				<artifactId>hazelcast-spring</artifactId>
 				<version>${hazelcast.version}</version>
 			</dependency>
+			<!-- guava -->
 			<dependency>
 				<groupId>com.google.guava</groupId>
 				<artifactId>guava</artifactId>
 				<version>${guava.version}</version>
 				<type>jar</type>
 			</dependency>
-			<!-- guava -->
 			<dependency>
 				<groupId>com.google.guava</groupId>
 				<artifactId>guava-gwt</artifactId>
 				<version>${guava.version}</version>
-			</dependency>
-			<dependency>
-				<groupId>net.lingala.zip4j</groupId>
-				<artifactId>zip4j</artifactId>
-				<version>1.3.1</version>
-			</dependency>
-			<!-- xml library -->
-			<dependency>
-				<groupId>org.jdom</groupId>
-				<artifactId>jdom</artifactId>
-				<version>2.0.2</version>
-			</dependency>
-			<dependency>
-				<groupId>dom4j</groupId>
-				<artifactId>dom4j</artifactId>
-				<version>1.6.1</version>
 			</dependency>
 			<!-- unit test library -->
 			<dependency>
