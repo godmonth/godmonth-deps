@@ -15,7 +15,7 @@
 		<logback.version>1.1.2</logback.version>
 		<guava.version>18.0</guava.version>
 		<curator.version>2.7.0</curator.version>
-		<hazelcast.version>3.3.2</hazelcast.version>
+		<hazelcast.version>3.3.3</hazelcast.version>
 		<hibernate.version>4.3.7.Final</hibernate.version>
 		<bouncycastle.version>1.46</bouncycastle.version>
 		<aspectj.version>1.8.2</aspectj.version>
