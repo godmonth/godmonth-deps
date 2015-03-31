@@ -19,7 +19,7 @@
 		<hazelcast.version>3.4.2</hazelcast.version>
 		<hibernate.version>4.3.8.Final</hibernate.version>
 		<bouncycastle.version>1.46</bouncycastle.version>
-		<aspectj.version>1.8.2</aspectj.version>
+		<aspectj.version>1.8.5</aspectj.version>
 	</properties>
 	<developers>
 		<developer>
