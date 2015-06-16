@@ -20,7 +20,7 @@
 		<hibernate.version>4.3.10.Final</hibernate.version>
 		<bouncycastle.version>1.46</bouncycastle.version>
 		<aspectj.version>1.8.6</aspectj.version>
-		<jackson.version>2.5.3</jackson.version>
+		<jackson.version>2.5.4</jackson.version>
 	</properties>
 	<developers>
 		<developer>
