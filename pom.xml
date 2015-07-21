@@ -20,7 +20,7 @@
 		<hibernate.version>4.3.10.Final</hibernate.version>
 		<bouncycastle.version>1.46</bouncycastle.version>
 		<aspectj.version>1.8.6</aspectj.version>
-		<jackson.version>2.5.4</jackson.version>
+		<jackson.version>2.6.0</jackson.version>
 	</properties>
 	<developers>
 		<developer>
@@ -89,6 +89,11 @@
 				<artifactId>mbassador</artifactId>
 				<version>1.2.1</version>
 			</dependency>
+			<dependency>
+				<groupId>com.thoughtworks.xstream</groupId>
+				<artifactId>xstream</artifactId>
+				<version>1.4.8</version>
+			</dependency>
 			<!-- json -->
 			<dependency>
 				<groupId>com.fasterxml.jackson.core</groupId>
@@ -105,8 +110,6 @@
 				<artifactId>jackson-databind</artifactId>
 				<version>${jackson.version}</version>
 			</dependency>
-
-
 			<!-- cache -->
 			<dependency>
 				<groupId>net.sf.ehcache</groupId>
@@ -305,12 +308,12 @@
 			<dependency>
 				<groupId>org.mybatis</groupId>
 				<artifactId>mybatis</artifactId>
-				<version>3.2.8</version>
+				<version>3.3.0</version>
 			</dependency>
 			<dependency>
 				<groupId>org.mybatis</groupId>
 				<artifactId>mybatis-spring</artifactId>
-				<version>1.2.2</version>
+				<version>1.2.3</version>
 			</dependency>
 
 			<!-- zookeeper -->
