@@ -17,7 +17,7 @@
 		<guava.version>18.0</guava.version>
 		<curator.version>2.8.0</curator.version>
 		<hazelcast.version>3.5.1</hazelcast.version>
-		<hibernate.version>4.3.10.Final</hibernate.version>
+		<hibernate.version>4.3.11.Final</hibernate.version>
 		<bouncycastle.version>1.46</bouncycastle.version>
 		<aspectj.version>1.8.6</aspectj.version>
 		<jackson.version>2.6.1</jackson.version>
