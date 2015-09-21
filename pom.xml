@@ -20,7 +20,7 @@
 		<hibernate.version>4.3.11.Final</hibernate.version>
 		<bouncycastle.version>1.46</bouncycastle.version>
 		<aspectj.version>1.8.7</aspectj.version>
-		<jackson.version>2.6.1</jackson.version>
+		<jackson.version>2.6.2</jackson.version>
 	</properties>
 	<developers>
 		<developer>
@@ -76,7 +76,7 @@
 			<dependency>
 				<groupId>org.apache.httpcomponents</groupId>
 				<artifactId>httpclient</artifactId>
-				<version>4.5</version>
+				<version>4.5.1</version>
 				<exclusions>
 					<exclusion>
 						<artifactId>commons-logging</artifactId>
