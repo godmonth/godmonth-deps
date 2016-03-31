@@ -1,4 +1,5 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.godmonth</groupId>
 	<name>deps</name>
@@ -6,15 +7,15 @@
 	<artifactId>deps</artifactId>
 	<packaging>pom</packaging>
 	<properties>
-		<slf4j.version>1.7.19</slf4j.version>
-		<logback.version>1.1.6</logback.version>
+		<slf4j.version>1.7.20</slf4j.version>
+		<logback.version>1.1.7</logback.version>
 		<guava.version>19.0</guava.version>
 		<curator.version>3.1.0</curator.version>
 		<hazelcast.version>3.6.1</hazelcast.version>
-		<hibernate.version>4.3.11.Final</hibernate.version>
-		<bouncycastle.version>1.46</bouncycastle.version>
+		<hibernate.version>5.1.0.Final</hibernate.version>
 		<aspectj.version>1.8.9</aspectj.version>
 		<jackson.version>2.7.3</jackson.version>
+		<bouncycastle.version>1.46</bouncycastle.version>
 	</properties>
 	<developers>
 		<developer>
@@ -70,7 +71,7 @@
 			<dependency>
 				<groupId>joda-time</groupId>
 				<artifactId>joda-time</artifactId>
-				<version>2.9.2</version>
+				<version>2.9.3</version>
 			</dependency>
 			<dependency>
 				<groupId>org.quartz-scheduler</groupId>
@@ -101,7 +102,7 @@
 			<dependency>
 				<groupId>net.engio</groupId>
 				<artifactId>mbassador</artifactId>
-				<version>1.2.4</version>
+				<version>1.2.4.2</version>
 			</dependency>
 			<dependency>
 				<groupId>com.thoughtworks.xstream</groupId>
@@ -113,7 +114,7 @@
 				<artifactId>freemarker</artifactId>
 				<version>2.3.23</version>
 			</dependency>
-			
+
 			<!-- json -->
 			<dependency>
 				<groupId>com.fasterxml.jackson.core</groupId>
@@ -355,7 +356,7 @@
 			<dependency>
 				<groupId>org.apache.zookeeper</groupId>
 				<artifactId>zookeeper</artifactId>
-				<version>3.4.7</version>
+				<version>3.4.8</version>
 				<exclusions>
 					<exclusion>
 						<artifactId>slf4j-log4j12</artifactId>
@@ -378,19 +379,13 @@
 			<dependency>
 				<groupId>org.testng</groupId>
 				<artifactId>testng</artifactId>
-				<version>6.9.9</version>
-				<scope>test</scope>
-			</dependency>
-			<dependency>
-				<groupId>org.easymock</groupId>
-				<artifactId>easymock</artifactId>
-				<version>3.4</version>
+				<version>6.9.10</version>
 				<scope>test</scope>
 			</dependency>
 			<dependency>
 				<groupId>org.mockito</groupId>
 				<artifactId>mockito-core</artifactId>
-				<version>2.0.43-beta</version>
+				<version>2.0.44-beta</version>
 				<scope>test</scope>
 			</dependency>
 
