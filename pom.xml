@@ -6,11 +6,11 @@
 	<artifactId>deps</artifactId>
 	<packaging>pom</packaging>
 	<properties>
-		<slf4j.version>1.7.20</slf4j.version>
+		<slf4j.version>1.7.21</slf4j.version>
 		<logback.version>1.1.7</logback.version>
 		<guava.version>19.0</guava.version>
 		<curator.version>3.1.0</curator.version>
-		<hazelcast.version>3.6.1</hazelcast.version>
+		<hazelcast.version>3.6.2</hazelcast.version>
 		<hibernate.version>5.1.0.Final</hibernate.version>
 		<aspectj.version>1.8.9</aspectj.version>
 		<jackson.version>2.7.3</jackson.version>
@@ -106,7 +106,7 @@
 			<dependency>
 				<groupId>com.thoughtworks.xstream</groupId>
 				<artifactId>xstream</artifactId>
-				<version>1.4.8</version>
+				<version>1.4.9</version>
 			</dependency>
 			<dependency>
 				<groupId>org.freemarker</groupId>
