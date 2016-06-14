@@ -10,10 +10,10 @@
 		<logback.version>1.1.7</logback.version>
 		<guava.version>19.0</guava.version>
 		<curator.version>3.1.0</curator.version>
-		<hazelcast.version>3.6.2</hazelcast.version>
-		<hibernate.version>5.1.0.Final</hibernate.version>
+		<hazelcast.version>3.6.3</hazelcast.version>
+		<hibernate.version>5.2.0.Final</hibernate.version>
 		<aspectj.version>1.8.9</aspectj.version>
-		<jackson.version>2.7.4</jackson.version>
+		<jackson.version>2.7.5</jackson.version>
 		<bouncycastle.version>1.46</bouncycastle.version>
 	</properties>
 	<developers>
@@ -70,7 +70,7 @@
 			<dependency>
 				<groupId>joda-time</groupId>
 				<artifactId>joda-time</artifactId>
-				<version>2.9.3</version>
+				<version>2.9.4</version>
 			</dependency>
 			<dependency>
 				<groupId>org.quartz-scheduler</groupId>
@@ -139,7 +139,7 @@
 			<dependency>
 				<groupId>org.ehcache</groupId>
 				<artifactId>ehcache</artifactId>
-				<version>3.0.1</version>
+				<version>3.0.2</version>
 			</dependency>
 			<dependency>
 				<groupId>com.googlecode.xmemcached</groupId>
