@@ -331,14 +331,9 @@
 				<version>${hibernate.version}</version>
 			</dependency>
 			<dependency>
-				<groupId>org.hibernate</groupId>
-				<artifactId>hibernate-entitymanager</artifactId>
-				<version>${hibernate.version}</version>
-			</dependency>
-			<dependency>
 				<groupId>org.mybatis</groupId>
 				<artifactId>mybatis</artifactId>
-				<version>3.4.0</version>
+				<version>3.4.1</version>
 			</dependency>
 			<dependency>
 				<groupId>org.mybatis</groupId>
