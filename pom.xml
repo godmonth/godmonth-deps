@@ -14,7 +14,7 @@
 		<hazelcast.version>3.6.4</hazelcast.version>
 		<hibernate.version>5.2.1.Final</hibernate.version>
 		<aspectj.version>1.8.9</aspectj.version>
-		<jackson.version>2.8.0</jackson.version>
+		<jackson.version>2.8.1</jackson.version>
 		<bouncycastle.version>1.46</bouncycastle.version>
 	</properties>
 	<developers>
