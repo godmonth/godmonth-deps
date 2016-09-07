@@ -1,4 +1,5 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.godmonth</groupId>
 	<name>deps</name>
@@ -10,10 +11,10 @@
 		<logback.version>1.1.7</logback.version>
 		<guava.version>19.0</guava.version>
 		<curator.version>3.2.0</curator.version>
-		<hazelcast.version>3.7</hazelcast.version>
+		<hazelcast.version>3.7.1</hazelcast.version>
 		<hibernate.version>5.2.2.Final</hibernate.version>
 		<aspectj.version>1.8.9</aspectj.version>
-		<jackson.version>2.8.1</jackson.version>
+		<jackson.version>2.8.2</jackson.version>
 		<bouncycastle.version>1.46</bouncycastle.version>
 	</properties>
 	<developers>
@@ -149,7 +150,7 @@
 			<dependency>
 				<groupId>com.googlecode.xmemcached</groupId>
 				<artifactId>xmemcached</artifactId>
-				<version>2.0.0</version>
+				<version>2.0.1</version>
 			</dependency>
 
 			<!-- guava -->
@@ -313,7 +314,12 @@
 				<artifactId>commons-math3</artifactId>
 				<version>3.5</version>
 			</dependency>
-
+			<dependency>
+				<groupId>org.apache.commons</groupId>
+				<artifactId>commons-csv</artifactId>
+				<version>1.4</version>
+			</dependency>
+			
 			<!-- rdb -->
 			<dependency>
 				<groupId>com.googlecode.log4jdbc</groupId>
@@ -389,7 +395,7 @@
 			<dependency>
 				<groupId>org.mockito</groupId>
 				<artifactId>mockito-core</artifactId>
-				<version>2.0.106-beta</version>
+				<version>2.1.0-beta.124</version>
 				<scope>test</scope>
 			</dependency>
 
