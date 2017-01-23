@@ -1,4 +1,5 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.godmonth</groupId>
 	<name>deps</name>
@@ -7,11 +8,10 @@
 	<packaging>pom</packaging>
 	<properties>
 		<slf4j.version>1.7.22</slf4j.version>
-		<logback.version>1.1.8</logback.version>
-		<guava.version>20.0</guava.version>
-		<curator.version>3.2.1</curator.version>
+		<logback.version>1.1.9</logback.version>
+		<guava.version>21.0</guava.version>
 		<hazelcast.version>3.7.4</hazelcast.version>
-		<hibernate.version>5.2.5.Final</hibernate.version>
+		<hibernate.version>5.2.6.Final</hibernate.version>
 		<aspectj.version>1.8.10</aspectj.version>
 		<bouncycastle.version>1.46</bouncycastle.version>
 	</properties>
@@ -69,7 +69,7 @@
 			<dependency>
 				<groupId>joda-time</groupId>
 				<artifactId>joda-time</artifactId>
-				<version>2.9.6</version>
+				<version>2.9.7</version>
 			</dependency>
 			<dependency>
 				<groupId>org.joda</groupId>
@@ -291,7 +291,7 @@
 				<artifactId>commons-csv</artifactId>
 				<version>1.4</version>
 			</dependency>
-			
+
 			<!-- rdb -->
 			<dependency>
 				<groupId>com.googlecode.log4jdbc</groupId>
@@ -320,21 +320,6 @@
 			</dependency>
 
 			<!-- zookeeper -->
-			<dependency>
-				<groupId>org.apache.curator</groupId>
-				<artifactId>curator-framework</artifactId>
-				<version>${curator.version}</version>
-			</dependency>
-			<dependency>
-				<groupId>org.apache.curator</groupId>
-				<artifactId>curator-recipes</artifactId>
-				<version>${curator.version}</version>
-			</dependency>
-			<dependency>
-				<groupId>org.apache.curator</groupId>
-				<artifactId>curator-test</artifactId>
-				<version>${curator.version}</version>
-			</dependency>
 			<dependency>
 				<groupId>org.apache.zookeeper</groupId>
 				<artifactId>zookeeper</artifactId>
