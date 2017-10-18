@@ -2,7 +2,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.godmonth</groupId>
 	<name>deps</name>
-	<version>2.9.1-SNAPSHOT</version>
+	<version>3.0-SNAPSHOT</version>
 	<artifactId>deps</artifactId>
 	<packaging>pom</packaging>
 	<properties>
@@ -10,9 +10,9 @@
 		<logback.version>1.2.3</logback.version>
 		<guava.version>23.0</guava.version>
 		<hazelcast.version>3.8.6</hazelcast.version>
-		<hibernate.version>5.2.10.Final</hibernate.version>
-		<aspectj.version>1.8.10</aspectj.version>
-		<bouncycastle.version>1.46</bouncycastle.version>
+		<hibernate.version>5.2.11.Final</hibernate.version>
+		<aspectj.version>1.8.11</aspectj.version>
+		<bouncycastle.version>1.58</bouncycastle.version>
 	</properties>
 	<developers>
 		<developer>
@@ -346,19 +346,25 @@
 			<!-- security library -->
 			<dependency>
 				<groupId>org.bouncycastle</groupId>
-				<artifactId>bcprov-jdk16</artifactId>
+				<artifactId>bcprov-jdk15on</artifactId>
 				<version>${bouncycastle.version}</version>
 				<scope>runtime</scope>
 			</dependency>
 			<dependency>
 				<groupId>org.bouncycastle</groupId>
-				<artifactId>bcpg-jdk16</artifactId>
+				<artifactId>bcpkix-jdk15on</artifactId>
 				<version>${bouncycastle.version}</version>
 				<scope>runtime</scope>
 			</dependency>
 			<dependency>
 				<groupId>org.bouncycastle</groupId>
-				<artifactId>bcmail-jdk16</artifactId>
+				<artifactId>bcpg-jdk15on</artifactId>
+				<version>${bouncycastle.version}</version>
+				<scope>runtime</scope>
+			</dependency>
+			<dependency>
+				<groupId>org.bouncycastle</groupId>
+				<artifactId>bcmail-jdk15on</artifactId>
 				<version>${bouncycastle.version}</version>
 				<scope>runtime</scope>
 			</dependency>
