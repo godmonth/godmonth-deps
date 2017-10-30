@@ -9,10 +9,10 @@
 	<properties>
 		<slf4j.version>1.7.25</slf4j.version>
 		<logback.version>1.2.3</logback.version>
-		<guava.version>23.0</guava.version>
-		<hazelcast.version>3.8.6</hazelcast.version>
-		<hibernate.version>5.2.11.Final</hibernate.version>
-		<aspectj.version>1.8.11</aspectj.version>
+		<guava.version>23.3-jre</guava.version>
+		<hazelcast.version>3.9</hazelcast.version>
+		<hibernate.version>5.2.12.Final</hibernate.version>
+		<aspectj.version>1.8.12</aspectj.version>
 		<bouncycastle.version>1.58</bouncycastle.version>
 	</properties>
 	<developers>
@@ -74,7 +74,7 @@
 			<dependency>
 				<groupId>org.hibernate</groupId>
 				<artifactId>hibernate-validator</artifactId>
-				<version>6.0.2.Final</version>
+				<version>6.0.4.Final</version>
 			</dependency>
 			<dependency>
 				<groupId>joda-time</groupId>
@@ -116,18 +116,6 @@
 				<groupId>org.freemarker</groupId>
 				<artifactId>freemarker</artifactId>
 				<version>2.3.23</version>
-			</dependency>
-
-			<!-- cache -->
-			<dependency>
-				<groupId>net.sf.ehcache</groupId>
-				<artifactId>ehcache</artifactId>
-				<version>2.10.4</version>
-			</dependency>
-			<dependency>
-				<groupId>com.googlecode.xmemcached</groupId>
-				<artifactId>xmemcached</artifactId>
-				<version>2.3.2</version>
 			</dependency>
 
 			<!-- guava -->
@@ -253,12 +241,12 @@
 			<dependency>
 				<groupId>commons-io</groupId>
 				<artifactId>commons-io</artifactId>
-				<version>2.5</version>
+				<version>2.6</version>
 			</dependency>
 			<dependency>
 				<groupId>commons-codec</groupId>
 				<artifactId>commons-codec</artifactId>
-				<version>1.10</version>
+				<version>1.11</version>
 			</dependency>
 			<dependency>
 				<groupId>commons-logging</groupId>
