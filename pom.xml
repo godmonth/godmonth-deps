@@ -9,9 +9,9 @@
 		<slf4j.version>1.7.25</slf4j.version>
 		<logback.version>1.2.3</logback.version>
 		<guava.version>24.0-jre</guava.version>
-		<hazelcast.version>3.9.2</hazelcast.version>
-		<hibernate.version>5.2.12.Final</hibernate.version>
-		<aspectj.version>1.8.13</aspectj.version>
+		<hazelcast.version>3.9.3</hazelcast.version>
+		<hibernate.version>5.3.0.CR1</hibernate.version>
+		<aspectj.version>5.2.15.Final</aspectj.version>
 		<bouncycastle.version>1.59</bouncycastle.version>
 	</properties>
 	<developers>
@@ -73,7 +73,7 @@
 			<dependency>
 				<groupId>org.hibernate</groupId>
 				<artifactId>hibernate-validator</artifactId>
-				<version>6.0.7.Final</version>
+				<version>6.0.8.Final</version>
 			</dependency>
 			<dependency>
 				<groupId>joda-time</groupId>
