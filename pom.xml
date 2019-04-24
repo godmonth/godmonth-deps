@@ -3,10 +3,10 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.godmonth</groupId>
-	<name>deps</name>
 	<version>3.4-SNAPSHOT</version>
 	<artifactId>deps</artifactId>
 	<packaging>pom</packaging>
+	<name>deps</name>
 	<properties>
 		<slf4j.version>1.7.26</slf4j.version>
 		<logback.version>1.2.3</logback.version>
