@@ -1,6 +1,10 @@
-/target
-
-/.project
-/.settings
+target
+.classpath
+.project
+.settings
+bin
+test-output
+*.iml
+.idea
 /pom.xml.releaseBackup
 /release.properties
